@@ -67,7 +67,7 @@ usersRouter.post('/register', async (req, res, next) => {
         username,
         password,
         name,
-        location,
+        location
       });
   
       const token = jwt.sign({ 
